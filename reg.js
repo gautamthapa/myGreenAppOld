@@ -201,22 +201,22 @@ $('input[data-toggle="popover"]').popover({
 	
 	var fname=$('#firstname').val();
 	var num=/[0-9]/; 
-    var schar=/[@~!#$%^&*()+?><.,.|\;':"`]/;
+    	var schar=/[@~!#$%^&*()+?><.,.|\;':"`]/;
     
 if(fname.length < name_len1 || fname.length > name_len2){
-		$('#span').html('First name must be between 2 to 15 charachter');
-       	    	$('#span').css('color', 'red');
+		$('#spnFnameStatus').html('First name must be between 2 to 15 charachter');
+       	    	$('#spnFnameStatus').css('color', 'red');
 	}else if(num.test(fname) == true){
-		$('#span').html('Name must be alphanumeric!');
-       	    	$('#span').css('color', 'red');
+		$('#spnFnameStatus').html('Name must be alphanumeric!');
+       	    	$('#spnFnameStatus').css('color', 'red');
 	}
     else if(schar.test(fname) == true)
     {
-		$('#span').html('Not contain special character except -_');
-       	    	$('#span').css('color', 'red');
+		$('#spnFnameStatus').html('Not contain special character except -_');
+       	    	$('#spnFnameStatus').css('color', 'red');
 	}else{
-    	$('#span').html('');
-       	 $('#span').css('color', 'red');
+    	$('#spnFnameStatus').html('');
+       	 $('#spnFnameStatus').css('color', 'red');
 	
     }
     
