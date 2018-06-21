@@ -192,6 +192,37 @@ $('input[data-toggle="popover"]').popover({
     });
   
   
+  
+  //validation name
+  $('#name').keyup(function() {
+        
+	var name_len1=3;
+	var name_len2=15;
+	
+	var fname=$('#name').val();
+	var num=/[0-9]/; 
+    var schar=/[@~!#$%^&*()+?><.,.|\;':"`]/;
+    
+if(fname.length < name_len1 || fname.length > name_len2){
+		$('#span').html('First name must be between 2 to 15 charachter');
+       	    	$('#span').css('color', 'red');
+	}else if(num.test(fname) == true){
+		$('#span').html('Name must be alphanumeric!');
+       	    	$('#span').css('color', 'red');
+	}
+    else if(schar.test(fname) == true)
+    {
+		$('#span').html('Not contain special character except -_');
+       	    	$('#span').css('color', 'red');
+	}else{
+    	$('#span').html('');
+       	 $('#span').css('color', 'red');
+	
+    }
+    
+       });
+  
+  
 });
 
 
