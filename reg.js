@@ -178,29 +178,4 @@ $('input[data-toggle="popover"]').popover({
     trigger: 'focus'
 });
   
-  
-  
-  
-      $('#txtPhone').blur(function(e) {
-        if (validatePhone('txtPhone')) {
-            $('#spnPhoneStatus').html('Valid');
-            $('#spnPhoneStatus').css('color', 'green');
-        }
-        else {
-            $('#spnPhoneStatus').html('Invalid');
-            $('#spnPhoneStatus').css('color', 'red');
-        }
-    });
-
-
-function validatePhone(txtPhone) {
-    var a = document.getElementById(txtPhone).value;
-    var filter = /^((\+[1-9]{1,4}[ \-]*)|(\([0-9]{2,3}\)[ \-]*)|([0-9]{2,4})[ \-]*)*?[0-9]{3,4}?[ \-]*[0-9]{3,4}?$/;
-    if (filter.test(a)) {
-        return true;
-    }
-    else {
-        return false;
-    }
-}
 });
