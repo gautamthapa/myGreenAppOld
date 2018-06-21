@@ -194,12 +194,12 @@ $('input[data-toggle="popover"]').popover({
   
   
   //validation name
-  $('#name').keyup(function() {
+  $('#firstname').keyup(function() {
         
 	var name_len1=3;
 	var name_len2=15;
 	
-	var fname=$('#name').val();
+	var fname=$('#firstname').val();
 	var num=/[0-9]/; 
     var schar=/[@~!#$%^&*()+?><.,.|\;':"`]/;
     
