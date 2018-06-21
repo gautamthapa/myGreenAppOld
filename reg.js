@@ -178,4 +178,31 @@ $('input[data-toggle="popover"]').popover({
     trigger: 'focus'
 });
   
+  
+  //validate mobile number
+   $('#txtPhone').blur(function() {
+        if (validatePhone('txtPhone')) {
+            $('#spnPhoneStatus').html('Valid');
+            $('#spnPhoneStatus').css('color', 'green');
+        }
+        else {
+            $('#spnPhoneStatus').html('Invalid');
+            $('#spnPhoneStatus').css('color', 'red');
+        }
+    });
+  
+  
 });
+
+
+//javascript function to validate number
+function validatePhone(txtPhone) {
+    var a = document.getElementById(txtPhone).value;
+    var filter = /^((\+[1-9]{1,4}[ \-]*)|(\([0-9]{2,3}\)[ \-]*)|([0-9]{2,4})[ \-]*)*?[0-9]{3,4}?[ \-]*[0-9]{3,4}?$/;
+    if (filter.test(a)) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
