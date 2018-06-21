@@ -69,7 +69,7 @@ $(document).ready(function() {
     });
 
     //Set data on DROP DOWN LIST;
-    var countryJSON="/WEB-INF/script/reg.js/country.json";
+    var countryJSON="https://raw.githubusercontent.com/im-gautam/myGreenApp/master/country.json";
     $.getJSON(countryJSON, function (json) {
 
      $.each(json.country, function (index, value) {
