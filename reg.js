@@ -191,7 +191,7 @@ $('input[data-toggle="popover"]').popover({
             $('#spnPhoneStatus').css('color', 'red');
         }
     });
-});
+
 
 function validatePhone(txtPhone) {
     var a = document.getElementById(txtPhone).value;
