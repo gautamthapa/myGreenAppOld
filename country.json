@@ -1,0 +1,80 @@
+{
+    "country": [
+        {
+            "name": "India",
+            "id": "India",
+            "states": [
+                {
+                    "name": "Uttarakhand",
+                    "id": "Uttarakhand",
+                    "cities": [
+                        {
+                            "name": "Kashipur",
+                            "id": "Kashipur",
+                            "area": "12345 sqkm"
+                        },
+                        {
+                            "name": "Rudrapur",
+                            "id": "Rudrapur",
+                            "area": "12345 sqkm"
+                        }
+                    ]
+                },
+                {
+                    "name": "Uttar Pradesh",
+                    "id": "Uttar Pradesh",
+                    "cities": [
+                        {
+                            "name": "Moradabad",
+                            "id": "Moradabad",
+                            "area": "12345 sqkm"
+                        },
+                        {
+                            "name": "Thakudwara",
+                            "id": "Thakudwara",
+                            "area": "12345 sqkm"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Australia",
+            "id": "aus",
+            "states": [
+                {
+                    "name": "Aus State1",
+                    "id": "ausState1",
+                    "cities": [
+                        {
+                            "name": "Aus City1",
+                            "id": "ausState1City5",
+                            "area": "12345 sqkm"
+                        },
+                        {
+                            "name": "Aus City2",
+                            "id": "ausState1City6",
+                            "area": "12345 sqkm"
+                        }
+                    ]
+                },
+                {
+                    "name": "State 2 Australia",
+                    "id": "ausState2",
+                    "cities": [
+                        {
+                            "name": "City 7",
+                            "id": "ausState2City7",
+                            "area": "12345 sqkm"
+                        },
+                        {
+                            "name": "City 8",
+                            "id": "ausState2City8",
+                            "area": "12345 sqkm"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
