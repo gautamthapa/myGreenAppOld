@@ -1,0 +1,83 @@
+body{
+	background-image:url('https://i1.wp.com/factordaily.com/wp-content/uploads/2017/11/AI-governance-lead.jpg?fit=1920%2C1080&ssl=1&resolution=1280,1');
+background-size:auto;
+   	background-repeat:no-repeat;
+}
+li a:hover {
+    background-color: #3a4549;
+}
+img{
+	background:rgba(51,51,77, 0.5);
+	font-size:40px;
+}
+#li101{
+display: block;
+float:right;
+}
+
+#div101{
+background:rgba(51,51,77, 0.5);
+	font-size:40px;
+}
+
+#divCenter{
+    margin-top:150px;
+}
+
+
+
+.popover.primary {
+    border-color:#337ab7;
+}
+.popover.primary>.arrow {
+    border-top-color:#337ab7;
+}
+.popover.primary>.popover-title {
+    color:#fff;
+    background-color:#337ab7;
+    border-color:#337ab7;
+}
+.popover.success {
+    border-color:#d6e9c6;
+}
+.popover.success>.arrow {
+    border-top-color:#d6e9c6;
+}
+.popover.success>.popover-title {
+    color:#3c763d;
+    background-color:#dff0d8;
+    border-color:#d6e9c6;
+}
+.popover.info {
+    border-color:#bce8f1;
+}
+.popover.info>.arrow {
+    border-top-color:#bce8f1;
+}
+.popover.info>.popover-title {
+    color:#31708f;
+    background-color:#d9edf7;
+    border-color:#bce8f1;
+}
+.popover.warning {
+    border-color:#faebcc;
+}
+.popover.warning>.arrow {
+    border-top-color:#faebcc;
+}
+.popover.warning>.popover-title {
+    color:#8a6d3b;
+    background-color:#fcf8e3;
+    border-color:#faebcc;
+}
+.popover.danger {
+    border-color:#ebccd1;
+}
+.popover.danger>.arrow {
+    border-top-color:#ebccd1;
+}
+.popover.danger>.popover-title {
+    color:#a94442;
+    background-color:#f2dede;
+    border-color:#ebccd1;
+}
